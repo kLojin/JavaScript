@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS PART 2</title>
+  <style>
+    body{
+      color: blueviolet;
+    }
+  </style>
+</head>
+<body id="body">
+  <h1>JS PART 2</h1>
+  <h2>We can change content with the use of JavaScript</h2>
+  <button type="button" onclick="document.getElementById('jsDemo').innerHTML='Hello World! This is my second JS example.'">Change the HTML Content</button>
+  <p id="jsDemo">Sample Content Change</p>
+
+  <hr>
+  <h2>We can change CSS Styles using JavaScript</h2>
+  <p id="changeStyle">JS can change the style of an element</p>
+  <button type="button" onclick="document.getElementById('changeStyle').style.fontSize='50px'">Click me to change font-size</button><br><br>
+  <button type="button" onclick="document.getElementById('body').style.backgroundColor='aquamarine'">Turn background color to aquamarine</button><br><br>
+  <button type="button" onclick="document.getElementById('body').style.color='maroon'">Turn text color to maroon</button><br><br>
+  <button type="button" onclick="document.getElementById('changeStyle').style.color='blue'">Turn text color of certain texts to blue</button>
+  <hr>
+  <h2>We can hide html elements using JS</h2>
+  <img src="https://img.freepik.com/free-photo/planting-flowers-garden-garden-tools-flowers_169016-2025.jpg?w=1380&t=st=1692238495~exp=1692239095~hmac=5ae8e50d08cccd12541cb31879523bddb797a2a8610cf541e9caaedaafabe0eb" alt="gardening image" height="170px" width="300px" id="gardening" style="display: block;margin-bottom: -13px;"><br>
+  <button type="button" onclick="document.getElementById('gardening').style.display='none'">Hide</button>
+  <button type="button" onclick="document.getElementById('gardening').style.display='block'">Show</button>
+  
+  <!-- TYPES OF ERRORS:
+  SYNTAX
+  RUN-TIME
+  LOGIC 
+  -->
+
+</body>
+</html>
